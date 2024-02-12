@@ -9,7 +9,9 @@
 
 <body>
 	<?php
-	echo "<h1>Hello World!</h1>";
+	for ($i = 0; $i < 2; $i++) {
+		echo "<h1>Hello World!</h1>";
+	}
 	echo "<p>I'm hosted with GitHub Pages.</p>";
 	?>
 </body>
