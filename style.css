@@ -1,0 +1,16 @@
+table,th,td {
+    border: 2px solid black;
+    padding: 10px;
+}
+table {
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    width: 100%;
+}
+div {
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid black;
+    text-align: center;
+}
