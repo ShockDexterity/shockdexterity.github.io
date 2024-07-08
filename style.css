@@ -1,16 +1,47 @@
-table,th,td {
-    border: 2px solid black;
-    padding: 10px;
+table,
+th,
+td {
+  border-collapse: collapse;
+  padding: 10px;
 }
+
+th,
+td {
+  word-wrap: normal;
+  border: 1px solid black;
+  height: 30px;
+}
+
 table {
-    text-align: center;
-    vertical-align: middle;
-    border-collapse: collapse;
-    width: 100%;
+  caption-side: top;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: collapse;
 }
+
 div {
-    margin: 20px;
-    padding: 20px;
-    border: 5px solid black;
-    text-align: center;
+  padding-top: 30px;
+}
+
+.free {
+  background: repeating-linear-gradient(-45deg, white, white 10px, lightgray 10px, lightgray 20px);
+}
+
+.cs {
+  background-color: lightblue;
+}
+
+.hist {
+  background-color: lightcoral;
+}
+
+.si {
+  background-color: lightgreen;
+}
+
+.async {
+  background-color: lightslategray;
 }

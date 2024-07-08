@@ -1,131 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>shockdexterity.github.io</title>
-		<!-- link to bootstrap5 -->
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-		/>
-		<link rel="stylesheet" href="style.css" />
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shockdexterity.github.io</title>
+    <!-- link to bootstrap5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-	<body>
-		<div>
-			<table>
-				<thead>
-					<tr>
-						<th scope="col">Time</th>
-						<th scope="col">Monday</th>
-						<th scope="col">Tuesday</th>
-						<th scope="col">Wednesday</th>
-						<th scope="col">Thursday</th>
-						<th scope="col">Friday</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<th>8:00-8:55</th>
-						<td rowspan="2"></td>
-						<td rowspan="3"></td>
-						<td rowspan="2"></td>
-						<td rowspan="2"></td>
-						<td rowspan="3"></td>
-					</tr>
-					<tr>
-						<th>9:05-10:00</th>
-					</tr>
-					<tr>
-						<th>10:10-11:05</th>
-						<td>
-							CS-145 <br />
-							<small>Jarvis</small>
-						</td>
-						<td>
-							CS-145 <br />
-							<small>Jarvis</small>
-						</td>
-						<td>
-							CS-145 <br />
-							<small>Jarvis</small>
-						</td>
-					</tr>
-					<tr>
-						<th>11:15-12:10</th>
-						<td>
-							HIST-120 <br />
-							<small>Bowman Hall</small>
-						</td>
-						<td rowspan="3" align="center">
-							CS-451 <br />
-							<small>Micheels/Jarvis</small>
-						</td>
-						<td>
-							HIST-120 <br />
-							<small>Bowman Hall</small>
-						</td>
-						<td rowspan="3">
-							CS-451 <br />
-							<small>Micheels/Jarvis</small>
-						</td>
-						<td>
-							HIST-120 <br />
-							<small>Bowman Hall</small>
-						</td>
-					</tr>
-					<tr>
-						<th>12:20-1:15</th>
-						<td rowspan="2"></td>
-						<td rowspan="2"></td>
-						<td rowspan="4"></td>
-					</tr>
-					<tr>
-						<th>1:25-2:20</th>
-					</tr>
-					<tr>
-						<th>2:30-3:25</th>
-						<td rowspan="2">
-							SI Lab <br />
-							<small>Jarvis</small>
-						</td>
-						<td rowspan="3"></td>
-						<td rowspan="2">
-							SI Lab <br />
-							<small>Jarvis</small>
-						</td>
-						<td>
-							SI Lab <br />
-							<small>Jarvis</small>
-						</td>
-					</tr>
-					<tr>
-						<th>3:35-4:30</th>
-						<td rowspan="2"></td>
-					</tr>
-					<tr>
-						<th>4:40-5:35</th>
-						<td>
-							CS-404 <br />
-							<small>Jarvis</small>
-						</td>
-						<td>
-							CS-404 <br />
-							<small>Jarvis</small>
-						</td>
-						<td>
-							CS-404 <br />
-							<small>Jarvis</small>
-						</td>
-					</tr>
-					<tr>
-						<th>Async</th>
-						<td colspan="5">SOC-110</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-	</body>
+  <body>
+    <div>
+      <table>
+        <caption>Will Canter's Fall Semester Schedule</caption>
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+            <th scope="col">Friday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>8:00-8:55</th>
+            <td rowspan="2" class="free"></td>
+            <td rowspan="5" class="free"></td>
+            <td rowspan="2" class="free"></td>
+            <td rowspan="5" class="free"></td>
+            <td rowspan="2" class="free"></td>
+          </tr>
+          <tr>
+            <th>9:05-10:00</th>
+          </tr>
+          <tr>
+            <th>10:10-11:05</th>
+            <td rowspan="2" class="cs">
+              CS-396<br />
+              <small>
+                Shader Prog. &<br />
+                Proc. Modeling<br />
+                <hr>
+                Jarvis
+              </small>
+            </td>
+            <td rowspan="2" class="cs">
+              CS-396<br />
+              <small>
+                Shader Prog. &<br />
+                Proc. Modeling<br />
+                <hr>
+                Jarvis
+              </small>
+            </td>
+            <td rowspan="2" class="cs">
+              CS-396<br />
+              <small>
+                Shader Prog. &<br />
+                Proc. Modeling<br />
+                <hr>
+                Jarvis
+              </small>
+            </td>
+          </tr>
+          <tr>
+            <th>11:15-12:10</th>
+          </tr>
+          <tr>
+            <th>12:20-1:15</th>
+            <td class="free"></td>
+            <td class="free"></td>
+            <td class="free"></td>
+          </tr>
+          <tr>
+            <th>1:25-2:20</th>
+            <td class="hist">
+              HIST-121<br />
+              <small>
+                Modern US History<br />
+                <hr>
+                Bowman
+              </small>
+            </td>
+            <td rowspan="2" class="si">
+              SI Lab<br />
+              <hr>
+              <small>Jarvis</small>
+            </td>
+            <td class="hist">
+              HIST-121<br />
+              <small>
+                Modern US History<br />
+                <hr>
+                Bowman
+              </small>
+            </td>
+            <td rowspan="2" class="si">
+              SI Lab<br />
+              <hr>
+              <small>Jarvis</small>
+            </td>
+            <td class="hist">
+              HIST-121<br />
+              <small>
+                Modern US History<br />
+                <hr>
+                Bowman
+              </small>
+            </td>
+          </tr>
+          <tr>
+            <th>2:30-3:25</th>
+            <td class="free"></td>
+            <td class="free"></td>
+            <td rowspan="2" class="free"></td>
+          </tr>
+          <tr>
+            <th>3:35-4:30</th>
+            <td class="si">
+              CS-144 (SI)<br />
+              <small>
+                Computer Science I<br />
+                <hr>
+                Jarvis
+              </small>
+            </td>
+            <td class="si">
+              CS-144 (SI)<br />
+              <small>
+                Computer Science I<br />
+                <hr>
+                Jarvis
+              </small>
+            </td>
+            <td class="si">
+              CS-144 (SI)<br />
+              <small>
+                Computer Science I<br />
+                <hr>
+                Jarvis
+              </small>
+            </td>
+            <td class="si">
+              CS-144 (SI)<br />
+              <small>
+                Computer Science I<br />
+                <hr>
+                Jarvis
+              </small>
+            </td>
+          </tr>
+          <tr>
+            <th rowspan="2">Async</th>
+            <td colspan="5" class="async">CS-125 (Python Scripting)</td>
+          </tr>
+          <tr>
+            <td colspan="5" class="async">GEOG-104 (World Geography)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>
