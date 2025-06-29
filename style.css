@@ -26,22 +26,7 @@ div {
   padding-top: 30px;
 }
 
-.free {
-  background: repeating-linear-gradient(-45deg, white, white 10px, lightgray 10px, lightgray 20px);
-}
-
-.cs {
-  background-color: lightblue;
-}
-
-.hist {
-  background-color: lightcoral;
-}
-
-.si {
-  background-color: lightgreen;
-}
-
-.async {
-  background-color: lightslategray;
+p {
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
